@@ -1,3 +1,20 @@
+nav {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
 nav > div{
     width: 33%;
     display: flex;
@@ -5,4 +22,13 @@ nav > div{
 }
 img {
     height: 50px;
+}
+.left{
+    justify-content: flex-start;
+}
+.right{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
 }
