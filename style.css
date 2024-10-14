@@ -32,3 +32,10 @@ img {
     border-radius: 20px;
     padding: 5px;
 }
+video{
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+}
